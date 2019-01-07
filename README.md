@@ -1,7 +1,4 @@
-`npm init`
-`npm i nodemon --save-dev`
-
-#블록 생성
+# 블록 생성
 
 - 블록
   4가지 기본요소
@@ -11,7 +8,7 @@
 3. hash - generated based on its on data
 4. data to store
 
-#Genesis Block
+# Genesis Block
 
 - the origin of the blockchain.
 - timestamp, lastHash, hash, data에 대한 dummy value를 가지고 있음.
