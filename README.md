@@ -36,3 +36,14 @@ SHA256("something to hash blah blah blah");
 - `beforeEach(fn, timeout)` Runs a function before each of the tests in this file runs.
 - `it(name, fn, timeout)` == `test(name, fn, timeout)` Runs a test.
 - `expect(value)` The expect function is used every time you want to test a value.
+
+## Multiple Chain Validation
+
+Miners will each have their own version of the chain.
+한사람이 체인에 새 블록을 연결하면, 전체 시스템에 업데이트되어야함
+모두가 일관성있게 업데이트된 카피를 지녀야함
+그렇지만 새 블록이 유효하고 accepted되었다는 validation 필요함..
+
+### longer chains
+
+### Hash Validation
