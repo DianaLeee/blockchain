@@ -57,3 +57,7 @@ individual peer가 어떻게 행동해야 하는가?
 2. A later server, connecting to the original peer to peer server
 
 p2p서버 그 자체로 1, 2 기능 모두 할것.
+
+- p2p 서버 제작
+- socket 통신
+- 블록체인 동기화 필요
