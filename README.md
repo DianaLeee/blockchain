@@ -47,3 +47,13 @@ Miners will each have their own version of the chain.
 ### longer chains
 
 ### Hash Validation
+
+## Peer-to-peer Server
+
+individual peer가 어떻게 행동해야 하는가?
+
+1. The first app to start peer-to-peer server
+   (wait for other peers/connections)
+2. A later server, connecting to the original peer to peer server
+
+p2p서버 그 자체로 1, 2 기능 모두 할것.
