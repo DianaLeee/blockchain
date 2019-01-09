@@ -61,3 +61,28 @@ p2p서버 그 자체로 1, 2 기능 모두 할것.
 - p2p 서버 제작
 - socket 통신
 - 블록체인 동기화 필요
+
+## Proof of Work System
+
+- A system that requires miners to do computational work to add blocks.
+- Any peer can replace the blockchain
+- The PoW make it expensive to generate corrupt chains.
+
+- Hashcash... pow system to prevent email spamming.
+- adjust "nonce" value to generate hashes. Generate hashes until a one with the matching leading 0's is found.
+
+- The difficulty sets a rate of mining.
+
+### 51% Attack
+
+- A dishonest miner has more than 51% of the network's power.
+- have power to replace the current block chain (longer chain == main chain)
+
+### Dynamic Block Difficulty
+
+- Add difficulty attribute to each block
+- Set Time value (Mine rate)
+- Difficulty ddjustment machanism
+  1. check the timestamp of the newly mined block
+  2. compare to the time set of the previously mined block
+  3. Difference in timestamps between blocks, if bigger than mine rate => mined too slowly => Therefore, Difficulty -1

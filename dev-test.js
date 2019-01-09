@@ -1,9 +1,7 @@
-//explore block class
-const Block = require("./block");
+const Blockchain = require("./blockchain");
 
-// const block = new Block("timestamp", "lastHash", "hash", "data");
-// console.log(block.toString());
-// console.log(Block.genesis().toString());
+const bc = new Blockchain();
 
-const fooBlock = Block.mineBlock(Block.genesis(), "this is real data");
-console.log(fooBlock.toString());
+for (let i = 0; i < 10; i++) {
+  console.log(bc.addBlock(`Hello! ${i}`).toString());
+}
